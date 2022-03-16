@@ -5,11 +5,11 @@
   }
 
   &__list {
+    position: relative;
     height: 777px;
   }
 
   &__item {
-    position: relative;
     width: 100%;
     height: 100%;
   }
@@ -23,7 +23,7 @@
     bottom: 0;
     z-index: -1;
     background-color: $slider-bg;
-    filter: blur(15px);
+    filter: blur(12px);
   }
 
   &__img {
