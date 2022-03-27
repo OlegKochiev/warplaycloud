@@ -5,3 +5,10 @@ for (let link of headerLinks) {
     this.classList.toggle('header__item--active');
   })
 }
+$('.slider__list').slick({
+  infinite: true,
+  speed: 1000,
+  fade: true,
+  cssEase: 'linear',
+  arrows: false
+});
