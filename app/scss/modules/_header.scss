@@ -1,11 +1,13 @@
 .header {
+  position: sticky;
   background-color: $background;
+  z-index: 1;
 
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 48px 56px;
+    padding: 48px 66px;
     font-size: 16px;
     font-weight: 400;
   }

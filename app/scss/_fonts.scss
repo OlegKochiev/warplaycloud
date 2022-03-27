@@ -13,3 +13,11 @@
     url('../fonts/Roboto-Light.woff') format('woff');
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Aire-Exterior';
+  font-weight: 400;
+  src: url('../fonts/Aire-Exterior.woff2') format('woff2'),
+    url('../fonts/Aire-Exterior.woff') format('woff');
+  font-display: swap;
+}
