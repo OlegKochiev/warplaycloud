@@ -1,6 +1,28 @@
 .slider {
   .container {
     padding: 0 30px;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      width: 1px;
+      height: 100px;
+      background-color: $white;
+      opacity: 0.5;
+      z-index: 1;
+    }
+
+    &::before {
+      top: 170px;
+      height: 77px;
+    }
+
+    &::after {
+      bottom: -40px;
+      height: 132px;
+    }
   }
 
   &__list {

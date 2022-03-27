@@ -1,6 +1,7 @@
 .header {
+  position: relative;
   background-color: $background;
-
+  z-index: 1;
 
   .container {
     display: flex;
@@ -8,7 +9,6 @@
     justify-content: space-between;
     padding: 48px 66px;
     font-size: 16px;
-    font-weight: 400;
   }
 
   &__list {
@@ -26,6 +26,8 @@
     }
 
     &--active {
+      font-weight: 400;
+
       &::before {
         content: '';
         position: absolute;
