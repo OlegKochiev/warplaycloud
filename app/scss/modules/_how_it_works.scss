@@ -1,0 +1,62 @@
+.how-it-works {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  &__wrapper {
+    padding: 0 85px;
+    height: 100%;
+  }
+
+  &__label,
+  &__link {
+    font-family: 'Roboto';
+    color: $active-blue;
+    font-size: 16px;
+  }
+
+  &__label {
+    position: relative;
+    display: block;
+    margin-bottom: 27px;
+    padding-left: 85px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 50px;
+      height: 1px;
+      background-color: $active-blue;
+    }
+  }
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__text {
+    margin-bottom: 27px;
+    color: $grey-text;
+
+    &:last-child {
+      margin-bottom: 74px;
+    }
+  }
+
+  &__line {
+    display: block;
+    width: 271px;
+    height: 1px;
+    margin-bottom: 27px;
+    background-color: rgba($white, 0.2);
+  }
+
+  &__link {
+    padding: 10px 4px 7px 0;
+    border-bottom: 1px solid;
+  }
+}

@@ -1,16 +1,18 @@
 .slider {
   .container {
+    margin-bottom: 140px;
     padding: 0 30px;
+
+
 
     &::before,
     &::after {
       content: '';
       position: absolute;
       left: 50%;
-      width: 1px;
+      width: 0.5px;
       height: 100px;
       background-color: $white;
-      opacity: 0.5;
       z-index: 1;
     }
 
