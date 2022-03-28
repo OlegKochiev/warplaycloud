@@ -21,9 +21,13 @@
   }
 
   &__item {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 400px;
     width: 100%;
-    padding: 76px 40px;
+    padding: 76px 40px 47px;
     background-color: $card-background;
     margin-right: 10px;
 
@@ -34,7 +38,7 @@
 
   &__item-title {
     max-width: 300px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     font-size: 36px;
     font-weight: 700;
   }
@@ -61,6 +65,7 @@
   }
 
   &__btn {
+    margin-top: auto;
     width: 100%;
     padding: 21px 0;
     font-family: 'Aire-Exterior';
