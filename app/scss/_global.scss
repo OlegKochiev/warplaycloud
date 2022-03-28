@@ -18,6 +18,34 @@ body {
   color: $white;
 }
 
+.label {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  padding-left: 85px;
+  font-family: 'Roboto';
+  color: $active-blue;
+  font-size: 16px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background-color: $active-blue;
+  }
+}
+
+.blue-link {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: $active-blue;
+  font-size: 16px;
+  border-bottom: 1px solid;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
