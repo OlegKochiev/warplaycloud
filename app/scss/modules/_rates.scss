@@ -26,14 +26,35 @@
     justify-content: space-between;
     max-width: 400px;
     width: 100%;
-    padding: 76px 40px 47px;
-    background-color: $card-background;
     margin-right: 10px;
+    padding: 76px 40px 47px;
+    border-radius: 5px;
+    background-color: $card-background;
 
     &:last-child {
       margin-right: 0;
     }
+
+    &:nth-child(2) {
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 200px;
+        background-color: $active-blue;
+        border-radius: 50%;
+        opacity: 0.5;
+        filter: blur(150px);
+        z-index: -1;
+      }
+    }
   }
+
 
   &__item-title {
     max-width: 300px;
