@@ -21,7 +21,6 @@
   }
 
   &__item {
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -75,5 +74,4 @@
     background-color: $active-blue;
     border-radius: 5px;
   }
-
 }
