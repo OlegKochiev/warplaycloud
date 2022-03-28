@@ -1,0 +1,74 @@
+.rates {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 335px;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__item {
+    max-width: 400px;
+    width: 100%;
+    padding: 76px 40px;
+    background-color: $card-background;
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__item-title {
+    max-width: 300px;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  &__item-price {
+    display: inline-block;
+    margin-bottom: 21px;
+    font-size: 24px;
+    color: $white;
+  }
+
+  .desc-list {
+    margin-bottom: 66px;
+    font-size: 21px;
+    color: $grey-text;
+
+    &__item {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    padding: 21px 0;
+    font-family: 'Aire-Exterior';
+    font-size: 24px;
+    color: $background;
+    font-weight: 400;
+    background-color: $active-blue;
+    border-radius: 5px;
+  }
+
+}
