@@ -1,0 +1,28 @@
+.play-anywhere {
+
+  .container {
+    position: relative;
+
+  }
+
+  &__wrapper {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  &__title {
+    margin-bottom: 90px;
+    line-height: 1;
+  }
+
+  &__text {
+    margin-bottom: 60px;
+  }
+
+  &__img {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    z-index: -1;
+  }
+}
