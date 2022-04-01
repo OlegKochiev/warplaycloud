@@ -1,0 +1,83 @@
+.footer {
+  background-color: $background2;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 66px;
+  }
+
+  &__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 30px;
+  }
+
+  &__rights {
+    margin-right: 20px;
+    padding-top: 4px;
+    font-family: 'Pulsar-Original';
+    color: $grey-font2;
+  }
+
+  &__design {
+    padding-top: 4px;
+    font-family: 'Pulsar-Original';
+    color: $grey-font;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .links {
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 20px;
+      color: $grey-font2;
+    }
+
+    &__item {
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &__link {
+      padding: 10px 0;
+    }
+  }
+
+  .social {
+    &__list {
+      display: flex;
+      justify-content: flex-end;
+      max-width: 70px;
+      width: 100%;
+    }
+
+
+
+    &__link {
+      display: block;
+      width: 27px;
+      height: 37px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 17px;
+    }
+
+  }
+
+}

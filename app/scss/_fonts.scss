@@ -29,3 +29,11 @@
     url('../fonts/Aire-Exterior.woff') format('woff');
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Pulsar-Original';
+  font-weight: 400;
+  src: url('../fonts/Pulsar-Original-Regular.woff2') format('woff2'),
+    url('../fonts/Pulsar-Original-Regular.woff') format('woff');
+  font-display: swap;
+}
