@@ -3,8 +3,6 @@
     margin-bottom: 140px;
     padding: 0 30px;
 
-
-
     &::before,
     &::after {
       content: '';
@@ -29,16 +27,14 @@
 
   &__list {
     box-shadow: 0px 0px 30px 16px rgba(9, 189, 242, 0.2);
-    border-radius: 0 0 15px 15px;
+    border-radius: 15px;
   }
 
   &__item {
     background-size: cover;
     background-position: bottom;
-    border-style: solid;
-    border-color: $border-blue;
-    border-width: 0 1px 1px;
-    border-radius: 0 0 15px 15px;
+    border: 1px solid $border-blue;
+    border-radius: 15px;
   }
 
   &__item-wrapper {
