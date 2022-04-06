@@ -19,13 +19,14 @@
 
   &__item {
     position: relative;
-    margin-right: 46px;
+    margin-right: 30px;
 
     &:last-child {
       margin-right: 0;
     }
 
-    &--active {
+    &--active,
+    &:active {
       font-weight: 400;
 
       &::before {
@@ -40,6 +41,17 @@
   }
 
   &__link {
-    padding: 5px 0;
+    padding: 5px 5px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: rgba($active-blue, 0.1);
+    }
+
+    &:focus {
+      outline: transparent;
+      border: 1px solid $white;
+    }
   }
 }
