@@ -11,10 +11,11 @@ $slider-bg: #09BDF2;
 $grey-text: #ABABAB;
 $blue: #0000FF;
 
-$md1: 1200;
-$md2: 992;
-$md3: 768;
-$md4: 576;
+$md1: 1400;
+$md2: 1100;
+$md3: 992;
+$md4: 768;
+$md5: 576;
 
 @mixin media-1($width) {
 	@media (max-width: #{$md1}px) {
