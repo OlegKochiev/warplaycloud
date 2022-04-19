@@ -47,6 +47,24 @@ body {
   border-bottom: 1px solid;
 }
 
+.social {
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 70px;
+    width: 100%;
+  }
+
+  &__link {
+    display: block;
+    width: 27px;
+    height: 37px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
